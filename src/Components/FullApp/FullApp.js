@@ -157,7 +157,7 @@ class FullApp extends Component {
           </div>
 
           <div className="right-side-border top-margin" />
-          <div className="right-side-header" id="author">More from Author</div>
+          <div className="right-side-header" id="author">More from the Author</div>
           <div className="information-content">
             {miniApp}
             {miniApp}
