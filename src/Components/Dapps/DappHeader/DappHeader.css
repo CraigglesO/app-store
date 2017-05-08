@@ -1,0 +1,43 @@
+.DappHeader {
+  position: relative;
+  background-color: white;
+  background: linear-gradient(to bottom, #edebed 0%,#d6d4d6 100%);
+  height: 50px;
+  line-height: 53px;
+  border-top: 1px solid #f7f6f7;
+  border-bottom: 1px solid #b1afb1;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.back-button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.back-button svg {
+  height: 47.5px;
+  width: 47.5px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+#back-name {
+  position: absolute;
+  left: 60px;
+  top: -2px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.app-name {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#dapp-header-search {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
