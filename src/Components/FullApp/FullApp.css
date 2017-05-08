@@ -29,6 +29,7 @@
 
 #app-header {
   font-size: 22px;
+  user-select: none;
   pointer-events: none;
 }
 
@@ -52,6 +53,7 @@
   border-width: 1px;
   border-color: #b9b4b2;
   margin-right: 30px;
+  user-select: none;
 }
 
 .right-side-header {
@@ -64,21 +66,25 @@
   width: 120px;
   padding-left: 4px;
   background-color: #ededed;
+  user-select: none;
 }
 
 .information-text {
   padding: 3px 0;
   width: 250px;
+  user-select: none;
 }
 
 .information-content {
   text-align: left;
   pointer-events: none;
   font-size: 14px;
+  user-select: none;
 }
 
 #photo-container {
   margin: 55px auto;
+  user-select: none;
 }
 
 #photo-sized-container {

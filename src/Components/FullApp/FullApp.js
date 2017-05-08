@@ -146,7 +146,7 @@ class FullApp extends Component {
               Updated: April 28, 2017
             </div>
             <div className="information-text" id="information-version">
-              version: 2.8.3
+              Version: 2.8.3
             </div>
             <div className="information-text" id="information-language">
               Languages: English, Russian, German, Italian, Japanese
