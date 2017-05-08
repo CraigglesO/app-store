@@ -118,7 +118,7 @@ class FullApp extends Component {
             <div id="photo-sized-container">
               <div id="photo-lg"><img src={photo} alt="Photo1" /></div>
               <div id="photo-gallery">
-                <div className="photo-border" />
+                {/*<div className="photo-border" />*/}
                 <div className="photos"      id="first" ><img onClick={this.changePhoto.bind(this,Photo1)} src={Photo1} alt="Photo1" /></div>
                 <div className="photo-border" />
                 <div className="photos"      id="second"><img onClick={this.changePhoto.bind(this,Photo2)} src={Photo2} alt="Photo2" /></div>
@@ -128,7 +128,7 @@ class FullApp extends Component {
                 <div className="photos"      id="fourth"><img onClick={this.changePhoto.bind(this,Photo4)} src={Photo4} alt="Photo4" /></div>
                 <div className="photo-border" />
                 <div className="photos last" id="fifth" ><img onClick={this.changePhoto.bind(this,Photo5)} src={Photo5} alt="Photo5" /></div>
-                <div className="photo-border" />
+                {/*<div className="photo-border" />*/}
               </div>
             </div>
           </div>
