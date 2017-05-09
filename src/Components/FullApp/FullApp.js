@@ -63,7 +63,8 @@ class FullApp extends Component {
     this.setState({
       readMoreLessText: null,
       readMoreLessStyle: {
-        height: 'auto'
+        height: 'auto',
+        cursor: 'default'
       }
     });
   }
@@ -112,7 +113,7 @@ class FullApp extends Component {
             })}
           </div>
 
-          <div id="read-more-less" onClick={this.readMoreLessToggle}>{readMoreLessText}</div>
+          <div id="read-more-less" style={readMoreLessStyle} onClick={this.readMoreLessToggle}>{readMoreLessText}</div>
 
           <div id="photo-container">
             <div id="photo-sized-container">

@@ -17,7 +17,7 @@ class Switch extends Component {
   props: Props;
   state: State = {
     state: false,
-    position: {transform: 'translateX(-49px)'}
+    position: {transform: 'translateX(-50px)'}
   };
 
   componentWillMount() {
@@ -37,7 +37,7 @@ class Switch extends Component {
     if (state) {
       this.setState({
         state: false,
-        position: {transform: 'translateX(-49px)'}
+        position: {transform: 'translateX(-50px)'}
       });
     } else {
       this.setState({
